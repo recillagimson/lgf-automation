@@ -138,14 +138,14 @@ Drop your Google service-account JSON at `secrets/service-account.json` — the 
 Stream a PNG to a file:
 
 ```bash
-curl -s "http://localhost:8000/snapshots/google-sheet?spreadsheet_id=12glaANnP2BsQfH_kHfRlzA40JdWAU-PJgDT-56yRV8k&gid=170384010&range=B1:J25" \
+curl -s "http://localhost:8000/snapshots/google-sheet?spreadsheet_id=16YnE82TVn1I02-ipLzHkEgTtNoZEsMzvxlEHRmZmnyo&gid=170384010&range=B1:J25" \
   -o snapshot.png
 ```
 
 Upload to Slack:
 
 ```bash
-curl -s "http://localhost:8000/snapshots/google-sheet?spreadsheet_id=12glaANnP2BsQfH_kHfRlzA40JdWAU-PJgDT-56yRV8k&gid=170384010&range=B1:J25&output=slack&title=Daily%20Report"
+curl -s "http://localhost:8000/snapshots/google-sheet?spreadsheet_id=16YnE82TVn1I02-ipLzHkEgTtNoZEsMzvxlEHRmZmnyo&gid=170384010&range=B1:J25&output=slack&title=Daily%20Report"
 ```
 
 Use the HTML fallback (works only when the sheet is "Anyone with the link"):

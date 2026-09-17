@@ -71,7 +71,7 @@ jobs:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
           # /skools passes the channel it was invoked in; else SLACK_CHANNEL_ID.
           SLACK_CHANNEL_ID: ${{ inputs.channel || secrets.SLACK_CHANNEL_ID }}
-          SPREADSHEET_ID: "12glaANnP2BsQfH_kHfRlzA40JdWAU-PJgDT-56yRV8k"
+          SPREADSHEET_ID: "16YnE82TVn1I02-ipLzHkEgTtNoZEsMzvxlEHRmZmnyo"
           GID: "170384010"
           ONLY_RANKED: "1"
           # Blue / dark-blue theme (Skool only; sales keeps the default dark_green).

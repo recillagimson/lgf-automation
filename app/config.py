@@ -36,7 +36,7 @@ class Settings(BaseSettings):
     )
 
     default_spreadsheet_id: Optional[str] = Field(
-        default="12glaANnP2BsQfH_kHfRlzA40JdWAU-PJgDT-56yRV8k",
+        default="16YnE82TVn1I02-ipLzHkEgTtNoZEsMzvxlEHRmZmnyo",
         alias="DEFAULT_SPREADSHEET_ID",
     )
     default_gid: Optional[int] = Field(default=170384010, alias="DEFAULT_GID")
@@ -94,9 +94,9 @@ class Settings(BaseSettings):
     # --- Approvals Analysis charts (scripts/approvals_analysis.py) ----------
     # Same SUMPRODUCT as the KPI APPROVALS ANALYSIS tab, run on Apptrack Raw:
     # Date Approved (B) + Amount Approved For (H), no status filter.
-    # https://docs.google.com/spreadsheets/d/12glaANnP2BsQfH_kHfRlzA40JdWAU-PJgDT-56yRV8k/edit?gid=1040888586
+    # https://docs.google.com/spreadsheets/d/16YnE82TVn1I02-ipLzHkEgTtNoZEsMzvxlEHRmZmnyo/edit?gid=1040888586
     approvals_analysis_spreadsheet_id: str = Field(
-        default="12glaANnP2BsQfH_kHfRlzA40JdWAU-PJgDT-56yRV8k",
+        default="16YnE82TVn1I02-ipLzHkEgTtNoZEsMzvxlEHRmZmnyo",
         alias="APPROVALS_ANALYSIS_SPREADSHEET_ID",
     )
     approvals_analysis_gid: int = Field(

@@ -27,7 +27,7 @@ from app.services.screenshot import ScreenshotError, snapshot_html
 from app.services.sheets import SheetAccessError, fetch_values
 from app.services.slack import SlackUploadError, post_message, upload_png
 
-GOLD_SPREADSHEET_ID = "12glaANnP2BsQfH_kHfRlzA40JdWAU-PJgDT-56yRV8k"
+GOLD_SPREADSHEET_ID = "16YnE82TVn1I02-ipLzHkEgTtNoZEsMzvxlEHRmZmnyo"
 GOLD_GID = 170384010
 GOLD_RANGE = "V1:Y50"
 GOLD_TITLE = "Monthly Gold Report"

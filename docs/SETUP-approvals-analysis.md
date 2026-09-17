@@ -1,7 +1,7 @@
 # Approvals Analysis charts (`/approvalsanalysis`, weekly + monthly)
 
 Bar charts of **approved amount** using the same SUMPRODUCT as the KPI
-[APPROVALS ANALYSIS](https://docs.google.com/spreadsheets/d/12glaANnP2BsQfH_kHfRlzA40JdWAU-PJgDT-56yRV8k/edit?gid=1040888586)
+[APPROVALS ANALYSIS](https://docs.google.com/spreadsheets/d/16YnE82TVn1I02-ipLzHkEgTtNoZEsMzvxlEHRmZmnyo/edit?gid=1040888586)
 tab — WEEKLY and MONTHLY totals — posted with the same dark LGF look as Sales
 Analysis.
 
@@ -68,7 +68,7 @@ exist on `main` before dispatch / cron-job.org will 204.
 
 ## Notes
 - **Look:** same renderer as Sales Analysis (`app/services/chart_renderer.py`).
-- **Data:** same formula as [APPROVALS ANALYSIS](https://docs.google.com/spreadsheets/d/12glaANnP2BsQfH_kHfRlzA40JdWAU-PJgDT-56yRV8k/edit?gid=1040888586):
+- **Data:** same formula as [APPROVALS ANALYSIS](https://docs.google.com/spreadsheets/d/16YnE82TVn1I02-ipLzHkEgTtNoZEsMzvxlEHRmZmnyo/edit?gid=1040888586):
   sum **Apptrack Raw H** (Amount Approved For) where **B Date Approved** is
   in the period. No status filter. Weekly = current Mon–Sun week plus the 5
   before it (`WE MM.DD`). Monthly = current month plus the 5 before it

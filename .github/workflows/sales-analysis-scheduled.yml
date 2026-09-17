@@ -77,7 +77,7 @@ jobs:
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
-          SPREADSHEET_ID: "12glaANnP2BsQfH_kHfRlzA40JdWAU-PJgDT-56yRV8k"
+          SPREADSHEET_ID: "16YnE82TVn1I02-ipLzHkEgTtNoZEsMzvxlEHRmZmnyo"
           GID: "1867438179"
           KIND: ${{ inputs.kind || 'both' }}
           GATE: ${{ inputs.gate || 'none' }}
